@@ -116,6 +116,8 @@ frontend-65d978c499-d4xbr          1/1     Running   0          2m42s
 frontend-65d978c499-pc8kl          1/1     Running   0          2m42s
 ```
 
+![image](https://github.com/Byzgaev-I/5-NetworkK8S-II/blob/main/5-1.png)
+
 Проверка сервисов:
 ```bash
 kubectl get services
@@ -123,6 +125,10 @@ NAME           TYPE        CLUSTER-IP       EXTERNAL-IP   PORT(S)   AGE
 backend-svc    ClusterIP   10.152.183.83    <none>        80/TCP    3m10s
 frontend-svc   ClusterIP   10.152.183.73    <none>        80/TCP    3m10s
 ```
+![image](https://github.com/Byzgaev-I/5-NetworkK8S-II/blob/main/5-2.png)
+
+
+![image](https://github.com/Byzgaev-I/5-NetworkK8S-II/blob/main/5-1-1.png)
 
 ## Задание 2. Создать Ingress и обеспечить доступ к приложениям снаружи кластера
 
@@ -168,3 +174,15 @@ kubectl get ingress
 NAME         CLASS    HOSTS   ADDRESS   PORTS   AGE
 my-ingress   public   *                 80      15s
 ```
+![image](https://github.com/Byzgaev-I/5-NetworkK8S-II/blob/main/5-3.png)
+
+
+![image](https://github.com/Byzgaev-I/5-NetworkK8S-II/blob/main/5-2-1.png)
+
+
+
+
+
+
+
+
