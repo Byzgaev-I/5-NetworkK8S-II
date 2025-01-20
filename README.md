@@ -207,10 +207,10 @@ kubectl get nodes -o wide
 
 Затем проверим доступ:
 
-# Доступ к frontend
+### Доступ к frontend
 curl http://10.0.2.15/
 
-# Доступ к backend
+### Доступ к backend
 curl http://10.0.2.15/api
 
 На скриншоте все отображено полностью
