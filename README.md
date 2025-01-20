@@ -190,22 +190,22 @@ my-ingress   public   *                 80      15s
 
 ### Взаимная доступность сервисов и доступ через Ingress:
 
-Проверим, что backend видит frontend:  
+### Проверим, что backend видит frontend:  
 ```bash
 kubectl exec backend-7d87b45648-gwwcd -- curl frontend-svc
 ```
 
-Проверим, что frontend видит backend:
+### Проверим, что frontend видит backend:
 ```bash
 kubectl exec frontend-65d978c499-c6wk2 -- curl backend-svc
 ```
 
-Проверим доступ через Ingress. Сначала узнаем IP-адрес узла:
+### Проверим доступ через Ingress. Сначала узнаем IP-адрес узла:
 ```bash
 kubectl get nodes -o wide
 ```
 
-Затем проверим доступ:
+### Затем проверим доступ:
 
 ### Доступ к frontend
 curl http://10.0.2.15/
