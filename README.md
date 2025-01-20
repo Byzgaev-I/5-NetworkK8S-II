@@ -213,8 +213,6 @@ curl http://10.0.2.15/
 #### Доступ к backend
 curl http://10.0.2.15/api
 
-На скриншоте все отображено полностью
-
 ![image](https://github.com/Byzgaev-I/5-NetworkK8S-II/blob/main/5-2-1.png)
 
 
